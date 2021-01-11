@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "angular-shop"
+  "defaultProject": "angular-shop",
+  "cli": {
+    "analytics": false
+  }
 }
