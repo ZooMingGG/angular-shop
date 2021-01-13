@@ -11,6 +11,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { QuillModule } from 'ngx-quill';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { QuillModule } from 'ngx-quill';
     MainLayoutComponent,
     HomePageComponent,
     ProductPageComponent,
-    CartPageComponent
+    CartPageComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

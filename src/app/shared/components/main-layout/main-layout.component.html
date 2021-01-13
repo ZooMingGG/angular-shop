@@ -1,5 +1,5 @@
 <nav class="navbar bg-dark">
-  <h2>Angular Shop</h2>
+  <h2 [routerLink]="['/']" class="logo">Angular Shop</h2>
   <ul>
     <li routerLinkActive="active">
       <a href="#">Phone</a>
@@ -18,4 +18,6 @@
     </li>
   </ul>
 </nav>
-<router-outlet></router-outlet>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
