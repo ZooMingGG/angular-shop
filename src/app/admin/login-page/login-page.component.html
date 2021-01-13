@@ -18,12 +18,12 @@
         Now Password is {{ form.get('password').errors.minlength.actualLength }} characters.
       </small>
     </div>
-    <button 
-      class="btn btn-primary btn-block"
-      type="submit"
-      [disabled]="form.invalid || submitted"
-    >
-      Login
-    </button>
   </div>
+  <button 
+    class="btn btn-primary btn-block"
+    type="submit"
+    [disabled]="form.invalid || submitted"
+  >
+    Login
+  </button>
 </form>
